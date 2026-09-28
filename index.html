@@ -4,6 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>My Favorite Places in California</title>
+
+    <style>
+        .gallery {
+            display: flex;
+            gap: 20px;
+        }
+
+        .gallery figure {
+            width: 30%;
+            margin: 0;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,41 +51,42 @@
         <section>
             <h2>My Favorite California Destinations</h2>
 
-            <figure>
-                <img src="los-angeles.jpg"
-                     alt="Los Angeles skyline at sunset"
-                     width="350">
-                <figcaption>Los Angeles</figcaption>
+            <div class="gallery">
 
-                <p>
-                    Los Angeles is one of my favorite cities in California.
-                    I like the city views and the many different places to visit.
-                </p>
-            </figure>
+                <figure>
+                    <img src="los-angeles.jpg"
+                         alt="Los Angeles skyline at sunset">
+                    <figcaption>Los Angeles</figcaption>
 
-            <figure>
-                <img src="manhattan-beach.jpg"
-                     alt="Manhattan Beach at sunset with the ocean and beach"
-                     width="350">
-                <figcaption>Manhattan Beach</figcaption>
+                    <p>
+                        Los Angeles is one of my favorite cities in California.
+                        I like the city views and the many different places to visit.
+                    </p>
+                </figure>
 
-                <p>
-                    Manhattan Beach is one of my favorite beaches in California.
-                    I love the ocean and the beautiful sunsets.
-                </p>
-            </figure>
+                <figure>
+                    <img src="manhattan-beach.jpg"
+                         alt="Manhattan Beach at sunset with the ocean and beach">
+                    <figcaption>Manhattan Beach</figcaption>
 
-            <figure>
-                <img src="san-francisco.jpg"
-                     alt="Golden Gate Bridge in San Francisco over the water"
-                     width="350">
-                <figcaption>San Francisco</figcaption>
+                    <p>
+                        Manhattan Beach is one of my favorite beaches in California.
+                        I love the ocean and the beautiful sunsets.
+                    </p>
+                </figure>
 
-                <p>
-                    San Francisco is another favorite place of mine.
-                    I especially like the Golden Gate Bridge.
-                </p>
-            </figure>
+                <figure>
+                    <img src="san-francisco.jpg"
+                         alt="Golden Gate Bridge in San Francisco over the water">
+                    <figcaption>San Francisco</figcaption>
+
+                    <p>
+                        San Francisco is another favorite place of mine.
+                        I especially like the Golden Gate Bridge.
+                    </p>
+                </figure>
+
+            </div>
 
         </section>
 
